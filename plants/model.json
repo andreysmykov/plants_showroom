@@ -1,0 +1,137 @@
+{
+  "plants": [
+    {
+      "name": "Sansevieria Laurenti",
+      "botanical_name": "sansevieria trifasciata prain var. laurentii",
+      "path": "../images/plant/Sansevieria Laurenti.jpg",
+      "description": "Sansevieria is one of the easiest plants to care for indoors. This cariety has beautiful yellow lines marking the edges of the leaves with dark green patterning. This plant's excellent air-purifying and easy-care qualities are particularly attractive.",
+      "care": {
+        "water": "moderate",
+        "temperature": "+20-25˚C",
+        "light": "part shade"
+      }
+    },
+    {
+      "name": "Sansevieria trifasciata",
+      "botanical_name": "sansevieria trifasciata",
+      "path": "../images/plant/Sansevieria trifasciata.jpg",
+      "description": "Sansevieria is one of the easiest plants to care for indoors. For this reason it is one of the most popular plants and also one of the best for purifying the air. Horizontal patterns of green-silver variegation span across dark green, creating a striking display with indoor house plants and room decorations.",
+      "care": {
+        "water": "moderate",
+        "temperature": "+20-25˚C",
+        "light": "part shade"
+      }
+    },
+    {
+      "name": "Echeveria",
+      "botanical_name": "echeveria fiona",
+      "path": "../images/plant/Echeveria.jpg",
+      "description": "Echeverias are fast-growing succulents popular for their unique appearance and low maintenance needs. Their stunning rosette shape, plump leaves, and large variety of colors give them a striking resemblance to flowers. They have a certain elegance and beauty different from all other home plants.",
+      "care": {
+        "water": "moderate",
+        "temperature": "+25-28˚C",
+        "light": "direct sun"
+      }
+    },
+    {
+      "name": "Ikebana",
+      "botanical_name": "echeveria fiona",
+      "path": "../images/plant/Ikebana.jpg",
+      "description": "In ikebana, the Japanese art of flower arranging, blossoms, branches, leaves, and stems find new life as materials for artmaking. In contrast to the western habits of placing flowers in a vase, ikebana aims to bring out the inner qualities of flowers and other live materials and express emotion.",
+      "care": {
+        "water": "infrequent",
+        "temperature": "+20-25˚C",
+        "light": "diffuse"
+      }
+    },
+    {
+      "name": "Cactus",
+      "botanical_name": "ferocactus peninsulae",
+      "path": "../images/plant/Cactus.jpg",
+      "description": "Cacti are the type of succulents native to the desert. They are slow-growing, boast beautiful blooms, and are among the sturdiest of all houseplants, which makes them the perfect low-maintenance plants. They are an amazing, living piece of decoration for your home.",
+
+      "care": {
+        "water": "infrequent",
+        "temperature": "+25-28˚C",
+        "light": "direct sun"
+      }
+    },
+    {
+      "name": "Chamaedorea",
+      "botanical_name": "chamaedorea elegans",
+      "path": "../images/plant/Chamaedorea.jpg",
+      "description": "This is a great plant for the beginner or the seasoned houseplant collector. The plant stands out for its soft whispy, and delicate fronds. They can make your home more beautiful, purify your air, boost your mood, and relieve dryness by raising the humidity in your rooms.",
+      "care": {
+        "water": "moderate",
+        "temperature": "+20-25˚C",
+        "light": "part shade"
+      }
+    },
+        {
+      "name": "Haworthia",
+      "botanical_name": "haworthia fasciata",
+      "path": "../images/plant/Haworthia.jpg",
+      "description": "Haworthia is a delightful slow-growing little succulent. This small, low-growing plant form rosettes of fleshy green leaves that are generously covered with white pearly warts or bands, giving it a distinctive appearance. They can be fantastic easy care gifts and presents for all types of people.",
+      "care": {
+        "water": "moderate",
+        "temperature": "+20-25˚C",
+        "light": "direct sun"
+      }
+    },
+    {
+      "name": "Calathea",
+      "botanical_name": "calathea concinna",
+      "path": "../images/plant/Calathea.jpg",
+      "description": "Calathea is a stunning herbaceous perennial. The underside of the leaf has dark rose variegation, providing the perfect contrast to the intricate patterning on top. They are also considered pet-friendly plants, making them great plant picks for anyone that shares a space with curious pets.",
+      "care": {
+        "water": "abundant",
+        "temperature": "+20-25˚C",
+        "light": "part shade"
+      }
+    },
+    {
+      "name": "Scindapsus",
+      "botanical_name": "scindapsus pictus",
+      "path": "../images/plant/Scindapsus.jpg",
+      "description": "Scindapsus is one of the easiest houseplants to grow, an evergreen tropical vine that are not cold-tolerant. The heart-shaped leaves have silvery grey splotches, which makes them look almost shiny and adds to the visual appeal of the plant. A favorite plant for indoor air purification in an office or home.",
+      "care": {
+        "water": "regular",
+        "temperature": "+20-25˚C",
+        "light": "diffuse"
+      }
+    },
+    {
+      "name": "Monstera",
+      "botanical_name": "monstera deliciosa",
+      "path": "../images/plant/Monstera.jpg",
+      "description": "This climbing tropical evergreen plant is perfect as a first plant or if you don’t have a green thumb. As a young plant, it has heart-shaped glossy green leaves, and these gradually split as it matures to form beautiful perforations. Place it somewhere where it has room to grow and display its stunning foliage.",
+      "care": {
+        "water": "abundant",
+        "temperature": "+20-25˚C",
+        "light": "direct sun"
+      }
+    },
+    {
+      "name": "Alocasia",
+      "botanical_name": "alocasia cucullata",
+      "path": "../images/plant/Alocasia.jpg",
+      "description": "Alocasia is an exotic and elegant tropical plant featuring stunning growing foliage. Large leaves create an umbrella of foliage that sprinkles a little green love throughout your home. This plant pulls you in with its striking looks and undeniable charm and adds effortless style to any end table or bookcase.",
+      "care": {
+        "water": "regular",
+        "temperature": "> 18˚C",
+        "light": "part shade"
+      }
+    },
+    {
+      "name": "Strelitzia",
+      "botanical_name": "strelitzia reginae",
+      "path": "../images/plant/Strelitzia.jpg",
+      "description": "The distinctive bird of paradise is one of the best-known tropical flowers. It is easier to grow than many tropical plants and makes for a vigorous, rapidly growing indoor plant. Create a tropical look for your space.",
+      "care": {
+        "water": "abundant",
+        "temperature": "+20-25˚C",
+        "light": "diffuse"
+      }
+    }
+  ]
+}
