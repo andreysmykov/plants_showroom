@@ -1,0 +1,6 @@
+PyQt6==6.4.0
+PyQt6-WebEngine==6.4.0
+flake8==6.0.0
+mypy==0.991
+asyncio==3.4.3
+aiohttp==3.8.3
