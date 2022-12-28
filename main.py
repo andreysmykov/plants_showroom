@@ -20,7 +20,7 @@ class PlantCare(QObject):
     temperatureUpdated = pyqtSignal()
     lightingUpdated = pyqtSignal()
 
-    def __init__(self, water: WaterType, temperature: str, light: LightType) -> None:
+    def __init__(self, water: WaterType, temperature: str, light: LightType = "any") -> None:
         super().__init__()
         self.__water = water
         self.__temperature = temperature

@@ -72,7 +72,7 @@ ApplicationWindow {
                     Layout.preferredWidth: parent.width / 3
                     Layout.fillHeight: true
                     Image {
-                        width: parent.width / 1.8; height: parent.height / 1.8
+                        width: parent.width / 2; height: parent.height / 2
                         anchors.centerIn: parent
                         source: image
                         fillMode: Image.PreserveAspectFit

@@ -1,7 +1,7 @@
 import re
 from typing import Literal
 
-LightType = Literal["shade", "part shade", "direct sun", "diffuse", "any"]
+LightType = Literal["moderate", "shade", "half shade", "direct sun", "diffuse", "any"]
 
 
 class LightParser:

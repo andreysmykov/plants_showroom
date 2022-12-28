@@ -29,17 +29,16 @@ Rectangle {
 
         Item {
             width: parent.width * 0.8; height: parent.height * 0.9
-            anchors.centerIn: parent
-            anchors.margins: 30
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: parent.bottom
 
             Item {
                 id: name
-                width: parent.width
-                height: parent.height / 7
+                width: parent.width; height: parent.height / 6
                 anchors.top: parent.top
                 Text {
                     text: plant.name
-                    anchors.bottom: parent.bottom
+                    verticalAlignment: Text.AlignTop
                     horizontalAlignment: Text.AlignLeft
                     font.family: AppSettings.font.font.family
                     font.pixelSize: plant.name.split(' ').length < 2 ? 48 : 40
@@ -48,10 +47,8 @@ Rectangle {
 
             Item {
                 id: description
-                width: parent.width
-                height: parent.height / 1.8
+                width: parent.width; height: parent.height / 1.6
                 anchors.top: name.bottom
-                anchors.topMargin: 30
                 Text {
                     text: plant.description
                     width: parent.width; height: parent.height
@@ -83,21 +80,24 @@ Rectangle {
                         {"characteristic": plant.care.temperature, "image": "../images/plant_care/thermometer", "font": AppSettings.digitFont },
                         {"characteristic": plant.care.light, "image": "../images/plant_care/sun", "font": AppSettings.font },
                     ]
-                    delegate: Rectangle {
+                    delegate: Item {
                         Layout.preferredWidth: parent.width / 3
                         Layout.fillHeight: true
                         Image {
-                            anchors.centerIn: parent
-                            width: parent.width / 2.5; height: parent.height / 2.5
+                            id: careImage
+                            anchors.bottom: parent.bottom
+                            anchors.bottomMargin: 30
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            width: parent.width / 2.8; height: parent.height / 2.8
                             source: modelData.image
                             fillMode: Image.PreserveAspectFit
                             mipmap: true; antialiasing: true
                         }
                         Text {
+                            anchors.top: careImage.bottom; anchors.topMargin: 6
                             text: modelData.characteristic
                             width: parent.width; height: parent.height
                             horizontalAlignment: Text.AlignHCenter
-                            verticalAlignment: Text.AlignBottom
                             font.family: modelData.font.font.family
                             font.pixelSize: 16
                         }
