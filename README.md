@@ -1,8 +1,8 @@
 # plants_showroom
-embedded application for plants showroom
+Embedded application for plants showroom. You can view detailed information about the home plant and go to social networks to find out more.
 
 
-https://user-images.githubusercontent.com/20164138/209713675-c8b0d7f4-491d-4b45-8885-b59fead73a5d.mp4
+https://user-images.githubusercontent.com/20164138/209764637-53494a9b-a694-4f5c-8b8e-2b090d019f18.mp4
 
 
 ## Installation
